@@ -1,0 +1,35 @@
+@media screen and (min-width: 669px) and (max-width: 1296px) {
+    
+.container__icons {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: none; /* Oculta a classe .container__icons */
+
+    
+    }
+}
+
+
+.lista-icons {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.item__link {
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+@media screen and (min-width: 669px) and (max-width: 1296px) {
+
+.my__photo {
+        display: none;
+    }
+ }
