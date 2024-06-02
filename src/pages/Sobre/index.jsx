@@ -152,7 +152,7 @@ export const PageSobre = () => {
           </p>
           <br />
           <div className="container__icons">
-          <SobreStrong>Tecnologias <FcSettings size={18} /> </SobreStrong>
+          <SobreStrong>Tecnologias  </SobreStrong>
             <ul className="lista-icons">
               <li className="item__link">
                 <img src={ReactIcon} alt="Icone do React Js" />

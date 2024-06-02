@@ -1,4 +1,4 @@
-@media screen and (min-width: 669px) and (max-width: 1296px) {
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
     
 .container__icons {
     align-items: center;
@@ -27,9 +27,11 @@
 }
 
 
-@media screen and (min-width: 669px) and (max-width: 1296px) {
+ @media screen and (min-width: 1024px) and (max-width: 1980px) {
 
 .my__photo {
         display: none;
     }
  }
+
+ 
