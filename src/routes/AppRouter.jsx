@@ -31,16 +31,6 @@ const router = createBrowserRouter([
         
     },
 
-    {
-        "rewrites": [
-            {
-                "source": "/(.*)",
-                "destination": "/"
-            }
-        ]
-    }
-    
-
 ]);
 
 
