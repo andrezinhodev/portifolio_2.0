@@ -15,6 +15,7 @@ const router = createBrowserRouter([
         path: '/sobre',
         element: <PageSobre />,
         
+        
     },
 
     {
@@ -30,7 +31,18 @@ const router = createBrowserRouter([
         
     },
 
+    {
+        "rewrites": [
+            {
+                "source": "/(.*)",
+                "destination": "/"
+            }
+        ]
+    }
+    
 
 ]);
+
+
 
 export const AppRouter = () => <RouterProvider router={router} />;
